@@ -284,3 +284,65 @@ section .row h4 {
 .todoapp #pic1, .todoapp #pic2{ 
   transition: opacity 0.5s ease-in-out;
 }
+
+.imageproceesingapp {
+  position: relative;
+  display: inline-block;
+}
+
+.imageproceesingapp #pic1 {
+  opacity:1;
+}
+
+.imageproceesingapp #pic2 {
+  /* display: none; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  opacity:0;
+}
+
+.imageproceesingapp:hover #pic1  {
+  opacity:0;
+}
+
+.imageproceesingapp:hover #pic2 {
+  display: inline;
+  opacity:1;
+}
+
+.imageproceesingapp #pic1, .imageproceesingapp #pic2{ 
+  transition: opacity 0.5s ease-in-out;
+}
+
+.chess {
+  position: relative;
+  display: inline-block;
+}
+
+.chess #pic1 {
+  opacity:1;
+}
+
+.chess #pic2 {
+  /* display: none; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  opacity:0;
+}
+
+.chess:hover #pic1  {
+  opacity:0;
+}
+
+.chess:hover #pic2 {
+  display: inline;
+  opacity:1;
+}
+
+.chess #pic1, .chess #pic2{ 
+  transition: opacity 0.5s ease-in-out;
+}
