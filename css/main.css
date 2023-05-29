@@ -285,16 +285,16 @@ section .row h4 {
   transition: opacity 0.5s ease-in-out;
 }
 
-.imageproceesingapp {
+.imageprocessingapp {
   position: relative;
   display: inline-block;
 }
 
-.imageproceesingapp #pic1 {
+.imageprocessingapp #pic1 {
   opacity:1;
 }
 
-.imageproceesingapp #pic2 {
+.imageprocessingapp #pic2 {
   /* display: none; */
   position: absolute;
   top: 0;
@@ -303,16 +303,16 @@ section .row h4 {
   opacity:0;
 }
 
-.imageproceesingapp:hover #pic1  {
+.imageprocessingapp:hover #pic1  {
   opacity:0;
 }
 
-.imageproceesingapp:hover #pic2 {
+.imageprocessingapp:hover #pic2 {
   display: inline;
   opacity:1;
 }
 
-.imageproceesingapp #pic1, .imageproceesingapp #pic2{ 
+.imageprocessingapp #pic1, .imageprocessingapp #pic2{ 
   transition: opacity 0.5s ease-in-out;
 }
 
