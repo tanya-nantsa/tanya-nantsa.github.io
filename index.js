@@ -4,6 +4,11 @@ const projectHeader = document.getElementById("project_header");
 // Get the offset position of the project subheader
 const sticky = projectHeader.offsetTop;
 
+// add a function on page load that adds fixed class
+function setHeader() {
+    projectHeader.classList.add("fixed")
+}
+
 // Add the sticky class to the projectHeader when you reach its scroll position. 
 // Remove the sticky class when you leave the scroll position.
 function stickyHeader() {
