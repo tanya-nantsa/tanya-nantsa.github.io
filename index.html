@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="index.js" defer></script>
+    
 </head>
 
-<body>
+<body onscroll="stickyHeader()">
 <header class="container">
-    <div class="row">
+    <div id="nav_bar" class="row">
         <h1 class="col-sm-4">Tanya Nantsa</h1>
         <nav class="col-sm-8 text-right">
             <a href="index.html">Home</a>
@@ -27,10 +30,10 @@
     </div>
 </section>
 
-<section class="container">
+<section id="project_header" class="container">
     <div class="row">
         <div class="col-sm-7 text-right">
-            <h2 class="section-title">PROJECTS</h2>
+            <h2 class="section-title">PROJECTS</h2> 
         </div>
     </div>
 </section>
@@ -176,7 +179,7 @@
             <p>Website designed and created by Tanya Nantsa</p>
         </nav>
         <nav class="col-sm-6 text-right">
-            <a href="mailto:tanyanantsa@hotmail.com">
+            <a href="mailto:tanyanantsa@gmail.com">
                 <p id = "email_text">Email   
                     <img src="images/email_icon.png" alt= "email_icon" id = "email_icon" width="25" height="20">
                 </p>                
@@ -184,5 +187,4 @@
         </nav>
     </div>
 </footer>
-
 </body>
