@@ -2,11 +2,11 @@
 
 A platform where I share projects I work on, my personal interests, and additional contact information. 
 
-# Website Link
+## Website Link
 
 https://tanya-nantsa.github.io 
 
-# Recent Updates
+## Recent Updates
 
 - Introduced a new tab "Non-Tech Projects" in the navigation bar showcasing my hobbies and completed projects.
 - Added recently completed tech projects.
