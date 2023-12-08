@@ -55,11 +55,12 @@ header a {
 }
 
 #bio {
-  padding-left: 25px;
-  padding-bottom: 25px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  padding-top: 35px;
   background-color: rgb(31, 31, 31);
   /* margin-top: 3%; */
-  /* transform: translate(0, -400%); */
+  transform: translate(0, -4%);
 }
 
 section {
