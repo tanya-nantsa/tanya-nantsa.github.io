@@ -35,13 +35,13 @@ header a {
 }
 
 
-.jumbotron {
-    display: flex;
-    width: 100%;
-    align-items:center;
-    background-image: url('../images/websitepic13.jpg'); 
-    background-size: cover;
-    height: 600px;
+#home_banner{
+  display: flex;
+  /* width: 100%; */
+  align-items:center;
+  background-image: url('../images/websitepic.png'); 
+  background-size: cover;
+  height: 600px;
 }
 
 #bio_header {
@@ -55,29 +55,33 @@ header a {
 }
 
 #bio {
-  margin-left: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  background-color: rgb(31, 31, 31);
+  /* margin-top: 3%; */
+  /* transform: translate(0, -400%); */
 }
 
 section {
-    padding: 30px  0px;
-    padding-right: 70px;
+  padding: 30px  0px;
+  padding-right: 70px;
 }
 
 section .row h2 {
-    font-size: 30px;
-    font-weight: 300;
-    color: #000000;
+  font-size: 30px;
+  font-weight: 300;
+  color: #000000;
 }
 
 h2.section-title {
-    transform: rotate(-90deg);
-    top: 100px;
-    transform-origin: left;
-    text-align: left;
-    letter-spacing: 8px;
-    font-size: .9rem;
-    margin-top: 130px;
-    margin-left: -90px;
+  transform: rotate(-90deg);
+  top: 100px;
+  transform-origin: left;
+  text-align: left;
+  letter-spacing: 8px;
+  font-size: .9rem;
+  margin-top: 130px;
+  margin-left: -90px;
 }
 
 .fixed .section-title{
@@ -93,21 +97,21 @@ h2.section-title {
 }
 
 #background {
-    margin-top: -145rem;
-    background: lightgrey;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    width: 100%;
-    height: 1500px;
+  margin-top: -145rem;
+  background: lightgrey;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  /* width: 100%; */
+  height: 1500px;
 }
 
 .second-section h3 {
-    margin-left: 40rem;
-    margin-top: 5rem;
-    font-size: 60px;
-    color: #000000;
-    font-weight: 300;
+  margin-left: 40rem;
+  margin-top: 5rem;
+  font-size: 60px;
+  color: #000000;
+  font-weight: 300;
 }
 
 #email_text {
@@ -179,7 +183,7 @@ section .row h4 {
 }
 
 #project_group {
-  margin-top:110px;
+  margin-top:50px;
 }
 
 #viewproject_button {
@@ -353,3 +357,173 @@ section .row h4 {
 .chess #pic1, .chess #pic2{ 
   transition: opacity 0.5s ease-in-out;
 }
+
+/***** HOBBIES.HTML, SEWING.HTML CSS******/
+#hobbie_blurb_1 {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+#hobbie_blurb_2 {
+  font-size: 25px
+}
+
+#hobbie_blurb_3 {
+  font-size: 25px
+}
+
+#background2 {
+  /* margin-top: -145rem; */
+  background-color: #A9AFD1;
+  color: #363537;
+  /* background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+  height: 400px; */
+}
+
+.hobby_section_1 {
+  display: flex;
+  align-items: center;
+}
+
+#hobby_header {
+  font-size: 35px;
+  font-weight: 300;
+  color: black;
+}
+
+.hobby_side_title {
+  transform: rotate(-90deg);
+  top: 100px;
+  transform-origin: left;
+  text-align: left;
+  letter-spacing: 8px;
+  margin-top: 400px;
+  margin-left: -90px;
+  position: fixed;
+  font-size: 30px;
+}
+
+.puzzles_header {
+  margin-top: 200px;
+}
+
+.crochet_header {
+  margin-top: 450px;
+}
+
+.readingmusic_header{
+  margin-top: 450px;
+}
+
+#hobby_project_header {
+  font-size: 30px;
+}
+
+#hobby_project_text {
+  font-size: 20px;
+  margin-top: 4%;
+}
+
+#hobby_project_group {
+  margin-top:7%;
+  padding-left: 30px;
+}
+
+#details_header {
+  font-size: large;
+  margin-bottom: 25px;
+  align-items: left;
+  margin-left:2%;
+}
+
+.more_details {
+  align-items: center;
+  margin: auto;
+  width: 80%;
+
+  max-height: 0;
+  /* display: none; */
+  overflow: hidden; /*change overflow so its conditional and doesnt cut text*/
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible_button {
+  background-color: #E17C57;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+
+  margin: 0;
+  margin-left: 3%;
+  transform: translate(0, -300%);
+}
+
+.active, .collapsible_button:hover {
+  background-color: #d45c31;
+}
+
+.hobby_subheader {
+  margin-top: 4%;
+}
+
+.show_less_button {
+  transform: translate(50%, 0);
+  font-size: 13px;
+  font-weight: 300;
+  background-color: #f29d7e;
+  border: none;
+  color: black;
+  padding: 10px 15px;
+}
+
+.show_less_button:hover {
+  background-color: #d45c31;
+}
+
+.hobby_pics {
+  position: relative;
+  display: inline-block;
+}
+
+.hobby_pics #hobby_pic1 {
+  opacity:1;
+}
+
+.hobby_pics #hobby_pic2 {
+  /* display: none; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  opacity:0;
+}
+
+.hobby_pics:hover #hobby_pic1  {
+  opacity:0;
+}
+
+.hobby_pics:hover #hobby_pic2 {
+  display: inline;
+  opacity:1;
+}
+
+.hobby_pics #hobby_pic1, .hobby_pics #hobby_pic2{ 
+  transition: opacity 0.5s ease-in-out;
+}
+
+.sewing_pic {
+  margin-bottom: 5%;
+}
+
+.inprogress {
+  margin-bottom: 5%;
+}
+

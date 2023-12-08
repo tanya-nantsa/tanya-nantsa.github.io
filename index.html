@@ -6,26 +6,28 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-    <script src="index.js" defer></script>
+    <script src="js/index.js" defer></script>
     
 </head>
 
-<body onscroll="stickyHeader()" onload="setHeader()">
+<body onscroll="stickyHeader()" onload="stickyHeader()">
 <header class="container">
     <div id="nav_bar" class="row">
         <h1 class="col-sm-4">Tanya Nantsa</h1>
         <nav class="col-sm-8 text-right">
             <a href="index.html">Home</a>
+            <a href="#project_header">Projects</a>
+            <a href="html/hobbies.html">Non-Tech Projects</a>
             <a href="html/contact.html">Contact</a>
         </nav>
     </div>
 </header>
 
-<section class="jumbotron">
+<section class="jumbotron" id="home_banner">
     <div class="container">
-        <div id = bio>
+        <div class="col-sm-8 text-left" id = bio>
             <h3 id="bio_header">Hello, I'm Tanya</h3> 
-            <h4 id="bio_text">A computer programmer who loves working on algorithms</h4>
+            <h4 id="bio_text"> A computer programmer passionate about coding and creating, while always on a journey of continuous learning</h4>
         </div>
     </div>
 </section>
